@@ -1,0 +1,11 @@
+{
+  "name": "world-news",
+  "version": "1.0.0",
+  "description": "In this site you can search world news",
+  "main": "index.js",
+  "scripts": {
+    "test": "build"
+  },
+  "author": "sitaram mewada",
+  "license": "ISC"
+}

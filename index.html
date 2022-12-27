@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World News</title>
+    <link rel="icon" href="./images/world news logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <meta name="viewport" content="width=device-width , intial-scale=1.0" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <nav class="nav_bar">
+      <logo class="news_logo"
+        >World <label class="news_label">News</label>
+      </logo>
+      <div class="news_search_bar">
+        <input
+          type="text"
+          class="news_search_input"
+          placeholder="Search world news"
+          list="field"
+        />
+        <datalist id="field">
+          <option class="search_option" value="business"></option>
+          <option class="search_option" value="entertainment"></option>
+          <option class="search_option" value="general"></option>
+          <option class="search_option" value="health"></option>
+          <option class="search_option" value="science"></option>
+          <option class="search_option" value="sports"></option>
+          <option class="search_option" value="technology"></option>
+        </datalist>
+        <input type="button" value="Search" class="news_search_button" />
+      </div>
+    </nav>
+    <div class="main_body">
+      <div class="news_data">
+        <div class="load_animation">
+          <img class="loading_img" src="./images/pngwing.com (2).png" />
+          <h2 class="loading_text">Loading...</h2>
+        </div>
+        <!-- <div class="news_error">
+          <h1 class="news_error_code">ERROR: 404</h1>
+          <p class="news_error_msg">Page not found!</p>
+        </div> -->
+        <!-- <div class="news_template">
+          <div class="overlay">
+            <div class="news_auther">
+              <img class="auther_img" src="./images/user-avatar.png" />
+              <p class="auther_name">Maria C. Hunt in Oakland</p>
+            </div>
+            <div class="main_news">
+              <h2 class="news_title">
+                Cider is having an American moment - thanks to a new generation
+                of crafters
+              </h2>
+              <p class="news_description">
+                A diverse group of producers is revitalizing a traditional
+                drink: ‘This is the flavor I’ve been looking for all my life’The
+                first time Peter Yi tried Basque cider, it hit him like a
+                lightning bolt. His experiences as a wine buyer left him
+                thinking ciders were…
+              </p>
+              <img
+                class="news_img"
+                src="https://i.guim.co.uk/img/media/1b6fc2eef26190f8d1638c7ddb4f377c2637ad65/0_448_6720_4032/master/6720.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=350088036f86807681b157a3bef616d8"
+              />
+              <p class="new_content">
+                The first time Peter Yi tried Basque cider, it hit him like a
+                lightning bolt. His experiences as a wine buyer left him
+                thinking ciders were sweet, simple and didnt pair well with
+                food. But this one w… [+9502 chars]
+              </p>
+              <button class="more_button">
+                <a href="www.google.com" target="_blank">more</a>
+              </button>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="news_template">
+          <div class="news_auther">
+            <img
+              class="auther_img"
+              src="./images/marcelo-cidrack-HME4dq3FCeI-unsplash.jpg"
+            />
+            <p class="auther_name">Maria C. Hunt in Oakland</p>
+          </div>
+          <div class="main_news">
+            <h2 class="news_title">
+              Cider is having an American moment - thanks to a new generation of
+              crafters
+            </h2>
+            <p class="news_description">
+              A diverse group of producers is revitalizing a traditional drink:
+              ‘This is the flavor I’ve been looking for all my life’The first
+              time Peter Yi tried Basque cider, it hit him like a lightning
+              bolt. His experiences as a wine buyer left him thinking ciders
+              were…
+            </p>
+            <img
+              class="news_img"
+              src="https://i.guim.co.uk/img/media/1b6fc2eef26190f8d1638c7ddb4f377c2637ad65/0_448_6720_4032/master/6720.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=350088036f86807681b157a3bef616d8"
+            />
+            <p class="new_content">
+              The first time Peter Yi tried Basque cider, it hit him like a
+              lightning bolt. His experiences as a wine buyer left him thinking
+              ciders were sweet, simple and didnt pair well with food. But this
+              one w… [+9502 chars]
+            </p>
+            <button class="more_button">
+              <a href="www.google.com" target="_blank">more</a>
+            </button> 
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <footer>
+      <div class="details">
+        <span>ABOUT US</span>
+        <span>HELP</span>
+        <span>CONTECT</span>
+        <span>PRIVACY</span>
+      </div>
+      <div class="line"><hr></div>
+      <div class="text"><p>News from one country to another is important in todays global economy. Knowing what is happening in other countries gives people a perspective of each others ways of life and cultural differences.  Certain kinds of news from countries that rely on each other for energy or other resources can often have a profound influence in overall global economics.  </p></div>
+      <div class="copy_right"><p>&copy; 2022 Copyright : <span>WorldNews</span> ❤️</p> </div>
+    </footer> 
+  </body>
+</html>
